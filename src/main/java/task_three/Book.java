@@ -1,10 +1,10 @@
 package task_three;
 
-public class Books {
-    String title;
-    String author;
+public class Book {
+    private String title;
+    private String author;
 
-    Books(String someTitle, String someAuthor){
+    Book(String someTitle, String someAuthor){
         this.title = someTitle;
         this.author = someAuthor;
     }

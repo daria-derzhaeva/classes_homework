@@ -1,8 +1,8 @@
 package task_ten;
 
 public class Laptop {
-    String brand;
-    double price;
+    private String brand;
+    private double price;
 
     Laptop(String someBrand, double somePrice){
         this.brand = someBrand;

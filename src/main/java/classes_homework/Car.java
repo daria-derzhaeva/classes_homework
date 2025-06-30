@@ -1,8 +1,8 @@
 package classes_homework;
 
 public class Car {
-    String brand;
-    int year;
+    private String brand;
+    private int year;
 
     Car(String someBrand, int someYear){
         this.brand = someBrand;

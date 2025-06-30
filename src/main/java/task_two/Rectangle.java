@@ -1,8 +1,8 @@
 package task_two;
 
 public class Rectangle {
-    int width;
-    int height;
+    private int width;
+    private int height;
 
     Rectangle(int someWidth, int someHeight){
         this.width = someWidth;

@@ -1,8 +1,8 @@
 package task_five;
 
 public class Point {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     Point(int someX, int someY){
         this.x = someX;
@@ -16,6 +16,9 @@ public class Point {
     }
     void setX(int newX){
         this.x = newX;
+    }
+    void setY(int newY){
+        this.y = newY;
     }
     void print(){
         System.out.println("X: " + this.x + " Y: " + this.y);

@@ -1,8 +1,8 @@
 package tack_nine;
 
 public class Product {
-    String name;
-    double price;
+    private String name;
+    private double price;
 
     Product(String someName, double somePrice){
         this.name = someName;
@@ -16,6 +16,9 @@ public class Product {
     }
     void setPrice(double newPrice){
         this.price = newPrice;
+    }
+    void setName(String newName){
+        this.name = newName;
     }
     void printInfo(){
         System.out.println("Name: " + this.name + " Price: " + this.price);

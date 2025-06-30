@@ -1,8 +1,8 @@
 package task_six;
 
 public class StudentGroup {
-    String groupName;
-    int studentCount;
+    private String groupName;
+    private int studentCount;
 
     StudentGroup(String someGroupName, int someStudentCount){
         this.groupName = someGroupName;

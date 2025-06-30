@@ -1,7 +1,7 @@
 package task_seven;
 
 public class Circle {
-    double radius;
+    private double radius;
 
     Circle(double someRadius){
         this.radius = someRadius;
